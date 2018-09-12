@@ -115,7 +115,10 @@
             你的改动现在已经在本地仓库的 <b>HEAD</b> 中了。执行如下命令以将这些改动提交到远端仓库：<br />
             <code>git push origin master</code><br />
             可以把 <i>master</i> 换成你想要推送的任何分支。
-            <br /><br />
+            <br />
+			可能你需要将项目强制推送到仓库<br />
+			<code>git push origin master -f</code><br />
+            <br />
             如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：<br />
             <code>git remote add origin &lt;server&gt;</code><br />
             如此你就能够将你的改动推送到所添加的服务器上去了。<br />
